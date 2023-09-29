@@ -9,7 +9,7 @@ st.set_page_config(page_title='🦜🔗 Ask the Doc App')
 st.title('🦜🔗 Ask the Doc App')
 
 # Dropbox access token
-DROPBOX_ACCESS_TOKEN = 'sl.Bm8jxBX__OKwEG2QstJGBtVictWyU7KfbbnpdelGyPW0BGIS2CTV3avy_38DaFjuhkK3ZbuCwBRP0BBOwEwVnKPy0qkdmkt0iWCC6xPZY9QlmYaAJTYwsdhdja2aZsqy0JcBuYlRnTPoyhbt3Ag4vxc'  # Replace with your actual access token
+DROPBOX_ACCESS_TOKEN = 'sl.Bm_gI7ZMtAGMyLffNW8VsfKJvzre6KvJc8MrYQM3HZjBkqOueJjEycfZwoPXpqBeE2yyee4tQYJ3-BnQ55Lx-Ozs4a2eNOY4M-ZEbg5P2AeGIMxCgbwdkiC_s70M0IXec1okEiYOdbFXU6xbxWyctLc'  # Replace with your actual access token
 
 # Initialize Dropbox client
 dbx = dropbox.Dropbox(DROPBOX_ACCESS_TOKEN)
