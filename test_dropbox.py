@@ -5,8 +5,8 @@ import io
 import dropbox
 
 # Initialize Streamlit page
-st.set_page_config(page_title='🦜🔗 Ask the Doc App')
-st.title('🦜🔗 Ask the Doc App')
+st.set_page_config(page_title='🦜🔗 Manage docs for LLM')
+st.title('🦜🔗 Manage docs for LLM')
 
 # Function to list files in the "test-llm" folder with extensions .pdf and .txt
 def list_dropbox_files(folder_path, dbx):
